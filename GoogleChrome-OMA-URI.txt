@@ -1,0 +1,30 @@
+Name: Chrome ADMX Ingestion
+Description: 
+OMA-URI: ./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/Chrome/Policy/ChromeAdmx
+Data: String
+Value <Copy from ADMX file>
+
+Name: Chrome – ADMX – HardwareAccelerationModeEnabled
+Description: Use hardware acceleration when available
+OMA-URI: ./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome/HardwareAccelerationModeEnabled
+Data: String
+Value <disabled/>
+
+Name: Chrome – ADMX – HardwareAccelerationModeEnabled
+Description: Use hardware acceleration when available
+OMA-URI: ./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome/HardwareAccelerationModeEnabled
+Data: String
+Value: <disabled/>
+
+Name: Chrome – ADMX – Extensions - ExtensionInstallForcelist
+Description: Configure the list of forced-installed apps and extensions
+./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist
+Data: String
+Value: <enabled/> <data id="ExtensionInstallForcelistDesc" value="1&#xF000;cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx&#xF000;2&#xF000;ggjhpefgjjfobnfoldnjipclpcfbgbhl;https://clients2.google.com/service/update2/crx"/>
+
+Name: Chrome – ADMX – ContentSettings - DefaultPluginsSetting
+Description: Default Flash setting
+./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~ContentSettings/DefaultPluginsSetting
+Data: String
+Value: <enabled/> <data id="DefaultPluginsSetting" value="2"/>
+
