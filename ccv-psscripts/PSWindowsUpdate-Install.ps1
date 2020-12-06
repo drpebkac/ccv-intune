@@ -1,2 +1,1 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force
-Install-Module -Name PSWindowsUpdate
+Install-Module -Name PSWindowsUpdate -Scope AllUsers -Force -ErrorAction Stop -Confirm:$false -Verbose:$false
