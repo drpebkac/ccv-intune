@@ -1,0 +1,1 @@
+New-ItemProperty "HKLM:\SOFTWARE\Policies\Microsoft\Windows" -Name DisableOSUpgrade -PropertyType DWORD -Value "1" -Force
