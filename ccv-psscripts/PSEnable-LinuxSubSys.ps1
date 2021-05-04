@@ -14,7 +14,7 @@ else
   }
   catch [Exception]
   {
-    Write-Host "Linux Subsystem will not be installed for unknown reasons.
+    Write-Host "Linux Subsystem will not be installed for unknown reasons."
     
   }
   
