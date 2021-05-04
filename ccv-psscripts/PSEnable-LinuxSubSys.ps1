@@ -17,5 +17,7 @@ else
     Write-Host "Linux Subsystem will not be installed for unknown reasons.
     
   }
+  
+}
    
   
